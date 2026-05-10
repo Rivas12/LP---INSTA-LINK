@@ -18,17 +18,39 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      <SocialProof />
-      <Problem />
-      <Solution />
-      <HowItWorks />
-      <Benefits />
-      <Demo />
-      <YouTubeSection />
-      <PhotoShowcase />
-      <Differential />
-      <Trust />
-      <FinalCTA />
+      <div className="section-divider">
+        <SocialProof />
+      </div>
+      <div className="section-divider">
+        <Problem />
+      </div>
+      <div className="section-divider">
+        <Solution />
+      </div>
+      <div className="section-divider">
+        <HowItWorks />
+      </div>
+      <div className="section-divider">
+        <Benefits />
+      </div>
+      <div className="section-divider">
+        <Demo />
+      </div>
+      <div className="section-divider">
+        <YouTubeSection />
+      </div>
+      <div className="section-divider">
+        <PhotoShowcase />
+      </div>
+      <div className="section-divider">
+        <Differential />
+      </div>
+      <div className="section-divider">
+        <Trust />
+      </div>
+      <div className="section-divider section-divider-strong">
+        <FinalCTA />
+      </div>
       <WhatsAppFloat />
     </main>
   );
