@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
@@ -9,11 +10,16 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full bg-white/95 backdrop-blur-xl border-b border-gray-200 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 sm:h-20">
+        <div className="flex justify-between items-center h-20 sm:h-24">
           <div className="flex items-center">
-            <span className="text-xl sm:text-2xl font-bold text-orange-500">
-              InstaLink
-            </span>
+            <Image
+              src="/logo.png"
+              alt="InstaLink"
+              width={230}
+              height={72}
+              className="h-14 w-auto sm:h-16"
+              priority
+            />
           </div>
 
           {/* Desktop Menu */}
