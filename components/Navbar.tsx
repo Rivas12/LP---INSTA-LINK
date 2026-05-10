@@ -7,6 +7,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const closeMenu = () => setIsOpen(false);
+
   return (
     <nav className="fixed w-full bg-white/95 backdrop-blur-xl border-b border-gray-200 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -62,26 +64,26 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-200">
           <div className="px-4 pt-2 pb-4 space-y-1">
-            <a href="#solucao" className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
+            <a href="#solucao" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
               Como Funciona
             </a>
-            <a href="#beneficios" className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
+            <a href="#beneficios" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
               Benefícios
             </a>
-            <a href="#demo" className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
+            <a href="#demo" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
               Demo
             </a>
-            <a href="#video" className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
+            <a href="#video" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
               Vídeo
             </a>
-            <a href="#fotos" className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
+            <a href="#fotos" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
               Fotos
             </a>
             <div className="grid grid-cols-2 gap-3 pt-2">
-              <button className="w-full px-4 py-3 rounded-xl text-sm font-semibold text-gray-800 border border-gray-300 hover:bg-gray-50 transition">
+              <button onClick={closeMenu} className="w-full px-4 py-3 rounded-xl text-sm font-semibold text-gray-800 border border-gray-300 hover:bg-gray-50 transition">
                 Entrar
               </button>
-              <button className="w-full bg-orange-500 text-white px-4 py-3 rounded-xl text-sm font-semibold hover:bg-orange-600 hover:shadow-lg transition">
+              <button onClick={closeMenu} className="w-full bg-orange-500 text-white px-4 py-3 rounded-xl text-sm font-semibold hover:bg-orange-600 hover:shadow-lg transition">
                 Teste Grátis
               </button>
             </div>

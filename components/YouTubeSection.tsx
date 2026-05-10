@@ -1,5 +1,5 @@
 export default function YouTubeSection() {
-  const videoId = "dQw4w9WgXcQ";
+  const videoId = "E2578W2iRGg";
 
   return (
     <section id="video" className="py-16 sm:py-24 bg-white">
