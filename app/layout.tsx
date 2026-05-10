@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from 'next/font/google';
 import "./globals.css";
 
@@ -11,6 +11,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "InstaLink - Automação de Instagram | Transforme Comentários em Leads",
   description: "Responda comentários e envie links no direct automaticamente. Capture leads durante lives sem equipe ou trabalho manual.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
