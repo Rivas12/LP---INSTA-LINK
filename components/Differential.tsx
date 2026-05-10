@@ -9,36 +9,36 @@ export default function Differential() {
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-16 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="scroll-reveal text-4xl md:text-6xl font-bold text-gray-900 mb-8">
+          <h2 className="scroll-reveal text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-5 sm:mb-8">
             Principal diferencial: envio de{" "}
             <span className="text-orange-500">
               arquivos + fluxos
             </span>
           </h2>
 
-          <p className="scroll-reveal text-xl text-gray-600 leading-relaxed mb-12">
+          <p className="scroll-reveal text-base sm:text-xl text-gray-600 leading-relaxed mb-8 sm:mb-12">
             Além de responder comentários, a plataforma envia materiais completos no direct e executa
             jornadas automáticas como no ManyChat, com foco total em conversão.
           </p>
 
-          <div className="scroll-reveal-scale bg-white border border-gray-200 rounded-3xl p-10 mb-8 shadow-md">
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="scroll-reveal-scale bg-white border border-gray-200 rounded-2xl sm:rounded-3xl p-5 sm:p-10 mb-6 sm:mb-8 shadow-md">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               {features.map((feature, index) => (
                 <div key={index} className="text-center">
-                  <div className="inline-flex w-16 h-16 bg-orange-500 rounded-2xl items-center justify-center mb-4">
-                    <feature.icon className="text-2xl text-white" />
+                  <div className="inline-flex w-14 h-14 sm:w-16 sm:h-16 bg-orange-500 rounded-2xl items-center justify-center mb-4">
+                    <feature.icon className="text-xl sm:text-2xl text-white" />
                   </div>
-                  <p className="text-gray-700 font-medium">{feature.text}</p>
+                  <p className="text-sm sm:text-base text-gray-700 font-medium">{feature.text}</p>
                 </div>
               ))}
             </div>
           </div>
 
-          <div className="bg-orange-50 border border-orange-200 rounded-2xl p-8">
-            <p className="text-gray-700 text-lg">
+          <div className="bg-orange-50 border border-orange-200 rounded-2xl p-5 sm:p-8">
+            <p className="text-gray-700 text-sm sm:text-lg">
               Sua audiência comenta e o sistema já responde, envia o arquivo certo e continua o fluxo sem
               travar, mesmo com <span className="text-gray-900 font-bold">alto volume de mensagens</span>.
             </p>

@@ -33,10 +33,10 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-16 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 scroll-reveal">
-          <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+        <div className="text-center mb-10 sm:mb-16 scroll-reveal">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
             Configuração em{" "}
             <span className="text-orange-500">
               menos de 2 minutos
@@ -44,24 +44,24 @@ export default function HowItWorks() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-8">
           {steps.map((step, index) => (
             <div
               key={index}
               className="scroll-reveal relative group"
             >
-              <div className="bg-white border border-gray-200 rounded-3xl p-8 hover:border-primary-300 hover:shadow-xl transition-all h-full">
+              <div className="bg-white border border-gray-200 rounded-2xl sm:rounded-3xl p-5 sm:p-8 hover:border-primary-300 hover:shadow-xl transition-all h-full">
                 {/* Number badge */}
-                <div className="absolute -top-4 -left-4 w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center font-bold text-white text-xl shadow-md">
+                <div className="absolute -top-3 -left-3 sm:-top-4 sm:-left-4 w-10 h-10 sm:w-12 sm:h-12 bg-orange-500 rounded-full flex items-center justify-center font-bold text-white text-base sm:text-xl shadow-md">
                   {step.number}
                 </div>
 
-                <div className="inline-flex w-16 h-16 bg-orange-500 rounded-2xl items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <step.icon className="text-3xl text-white" />
+                <div className="inline-flex w-14 h-14 sm:w-16 sm:h-16 bg-orange-500 rounded-2xl items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform">
+                  <step.icon className="text-2xl sm:text-3xl text-white" />
                 </div>
 
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{step.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{step.description}</p>
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">{step.title}</h3>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{step.description}</p>
               </div>
 
               {/* Connector arrow (except for last item) */}

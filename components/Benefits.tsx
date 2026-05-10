@@ -29,10 +29,10 @@ export default function Benefits() {
   ];
 
   return (
-    <section id="beneficios" className="py-24 bg-white">
+    <section id="beneficios" className="py-16 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 scroll-reveal">
-          <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+        <div className="text-center mb-10 sm:mb-16 scroll-reveal">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
             Feito para criadores que querem{" "}
             <span className="text-orange-500">
               escalar
@@ -40,22 +40,22 @@ export default function Benefits() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-5 sm:gap-8">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="scroll-reveal group relative bg-white border border-gray-200 rounded-3xl p-10 hover:border-primary-300 hover:shadow-2xl transition-all overflow-hidden"
+              className="scroll-reveal group relative bg-white border border-gray-200 rounded-2xl sm:rounded-3xl p-6 sm:p-10 hover:border-primary-300 hover:shadow-2xl transition-all overflow-hidden"
             >
               {/* Glow effect */}
               <div className="absolute inset-0 bg-transparent"></div>
 
               <div className="relative">
-                <div className="inline-flex w-16 h-16 bg-orange-500 rounded-2xl items-center justify-center mb-6 group-hover:scale-110 transition-all">
-                  <benefit.icon className="text-3xl text-white" />
+                <div className="inline-flex w-14 h-14 sm:w-16 sm:h-16 bg-orange-500 rounded-2xl items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-all">
+                  <benefit.icon className="text-2xl sm:text-3xl text-white" />
                 </div>
 
-                <h3 className="text-3xl font-bold text-gray-900 mb-4">{benefit.title}</h3>
-                <p className="text-xl text-gray-600 leading-relaxed">{benefit.description}</p>
+                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">{benefit.title}</h3>
+                <p className="text-base sm:text-xl text-gray-600 leading-relaxed">{benefit.description}</p>
               </div>
             </div>
           ))}

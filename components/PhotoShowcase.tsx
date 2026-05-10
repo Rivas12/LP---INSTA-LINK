@@ -18,20 +18,20 @@ export default function PhotoShowcase() {
   ];
 
   return (
-    <section id="fotos" className="py-24 bg-white">
+    <section id="fotos" className="py-16 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Veja telas reais da plataforma</h2>
-          <p className="text-lg text-gray-600">Troque estas imagens pelos prints oficiais do seu sistema.</p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">Veja telas reais da plataforma</h2>
+          <p className="text-base sm:text-lg text-gray-600">Troque estas imagens pelos prints oficiais do seu sistema.</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
           {photos.map((photo, index) => (
-            <article key={index} className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg">
-              <img src={photo.src} alt={photo.title} className="h-56 w-full object-cover" loading="lazy" />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{photo.title}</h3>
-                <p className="text-gray-600">{photo.description}</p>
+            <article key={index} className="overflow-hidden rounded-2xl sm:rounded-3xl border border-gray-200 bg-white shadow-lg">
+              <img src={photo.src} alt={photo.title} className="h-48 sm:h-56 w-full object-cover" loading="lazy" />
+              <div className="p-5 sm:p-6">
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">{photo.title}</h3>
+                <p className="text-sm sm:text-base text-gray-600">{photo.description}</p>
               </div>
             </article>
           ))}
