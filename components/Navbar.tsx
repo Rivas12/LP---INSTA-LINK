@@ -16,7 +16,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Image
               src="/logo.png"
-              alt="InstaLink"
+              alt="LinkInsta"
               width={230}
               height={72}
               className="h-14 w-auto sm:h-16"
@@ -42,9 +42,9 @@ export default function Navbar() {
               Fotos
             </a>
             <div className="flex items-center gap-3">
-              <button className="px-5 py-3 rounded-xl font-semibold text-gray-800 border border-gray-300 hover:bg-gray-50 transition-all duration-300">
+              <a href="https://app.linkinsta.com.br/login" target="_blank" rel="noopener noreferrer" className="px-5 py-3 rounded-xl font-semibold text-gray-800 border border-gray-300 hover:bg-gray-50 transition-all duration-300">
                 Entrar
-              </button>
+              </a>
               <button className="bg-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 hover:shadow-lg hover:scale-105 transition-all duration-300">
                 Teste Grátis
               </button>
@@ -80,9 +80,9 @@ export default function Navbar() {
               Fotos
             </a>
             <div className="grid grid-cols-2 gap-3 pt-2">
-              <button onClick={closeMenu} className="w-full px-4 py-3 rounded-xl text-sm font-semibold text-gray-800 border border-gray-300 hover:bg-gray-50 transition">
+              <a href="https://app.linkinsta.com.br/login" target="_blank" rel="noopener noreferrer" onClick={closeMenu} className="w-full px-4 py-3 rounded-xl text-sm font-semibold text-gray-800 border border-gray-300 hover:bg-gray-50 transition text-center">
                 Entrar
-              </button>
+              </a>
               <button onClick={closeMenu} className="w-full bg-orange-500 text-white px-4 py-3 rounded-xl text-sm font-semibold hover:bg-orange-600 hover:shadow-lg transition">
                 Teste Grátis
               </button>
