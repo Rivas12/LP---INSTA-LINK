@@ -59,7 +59,7 @@ export default function FinalCTA() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div>
               <span className="text-xl sm:text-2xl font-bold text-orange-500">
-                InstaLink
+                LinkInsta
               </span>
               <p className="text-gray-500 text-xs sm:text-sm mt-2">
                 Automação de Instagram para criadores
@@ -69,7 +69,7 @@ export default function FinalCTA() {
               </p>
             </div>
             <div className="text-gray-500 text-xs sm:text-sm text-center md:text-right">
-              <p>© 2026 InstaLink. Todos os direitos reservados.</p>
+              <p>© 2026 LinkInsta. Todos os direitos reservados.</p>
               <p className="mt-1">Termos de uso • Política de privacidade</p>
             </div>
           </div>

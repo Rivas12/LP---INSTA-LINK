@@ -33,7 +33,7 @@ export default function Testimonials() {
             O que nossos clientes dizem
           </h2>
           <p className="text-xl text-gray-600">
-            Milhares de profissionais confiam na InstaLink
+            Milhares de profissionais confiam na LinkInsta
           </p>
         </div>
 

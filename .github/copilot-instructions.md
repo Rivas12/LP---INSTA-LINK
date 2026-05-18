@@ -1,4 +1,4 @@
-# Projeto Next.js - Landing Page estilo mLabs
+# Projeto Next.js - Landing Page LinkInsta
 
 Este é um projeto Next.js com TypeScript e Tailwind CSS para criar uma landing page de gerenciamento de redes sociais.
 

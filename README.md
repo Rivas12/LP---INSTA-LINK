@@ -1,4 +1,4 @@
-# Landing Page - Gerenciamento de Redes Sociais
+# LinkInsta - Landing Page
 
 Landing page moderna criada com Next.js 15, TypeScript e Tailwind CSS, inspirada na mLabs.
 

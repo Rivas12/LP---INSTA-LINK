@@ -6,10 +6,10 @@ const posts = [
     author: "Rafael Kiso",
     role: "CMO & Founder",
     date: "09/05/2026",
-    category: "InstaLink",
+    category: "LinkInsta",
   },
   {
-    title: "InstaLink Chat: centralize mensagens, comentários e interações das redes sociais",
+    title: "LinkInsta Chat: centralize mensagens, comentários e interações das redes sociais",
     author: "Lucas Amaral",
     role: "Editor de Conteúdo",
     date: "06/05/2026",

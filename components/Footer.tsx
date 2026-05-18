@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <Image
               src="/logo.jpeg"
-              alt="InstaLink"
+              alt="LinkInsta"
               width={220}
               height={68}
               className="h-14 w-auto mb-4"
@@ -56,7 +56,7 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center gap-2">
                 <FaEnvelope className="text-primary-500" />
-                <span>contato@instalink.com</span>
+                <span>contato@linkinsta.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <FaPhone className="text-primary-500" />
@@ -73,7 +73,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © 2026 InstaLink Software S.A. All Rights Reserved.
+              © 2026 LinkInsta Software S.A. All Rights Reserved.
             </p>
             <div className="flex flex-wrap gap-4 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition">
