@@ -12,6 +12,7 @@ import Navbar from "@/components/Navbar";
 import YouTubeSection from "@/components/YouTubeSection";
 import PhotoShowcase from "@/components/PhotoShowcase";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import CookieConsent from "@/components/CookieConsent";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
         <FinalCTA />
       </div>
       <WhatsAppFloat />
+      <CookieConsent />
     </main>
   );
 }
