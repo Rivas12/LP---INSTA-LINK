@@ -178,7 +178,7 @@ export default function Pricing() {
                 key={plan.id}
                 className={`relative flex flex-col rounded-2xl overflow-hidden border transition-all duration-300 hover:-translate-y-1 ${
                   plan.highlighted
-                    ? "border-blue-500/60 bg-gradient-to-b from-[#0f2445] to-[#0d1b2e] shadow-[0_0_50px_rgba(59,130,246,0.18)]"
+                    ? "border-blue-500/60 bg-gradient-to-b from-[#0f2445] to-[#0d1b2e] shadow-[0_0_60px_rgba(59,130,246,0.25)] xl:-translate-y-5 xl:scale-[1.04] z-10"
                     : "border-white/8 bg-[#111f33] hover:border-white/20"
                 }`}
               >

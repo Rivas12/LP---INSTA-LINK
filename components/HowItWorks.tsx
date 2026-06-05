@@ -33,7 +33,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-16 sm:py-24 bg-white">
+    <section className="py-16 sm:py-24 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10 sm:mb-16 scroll-reveal">
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
@@ -44,7 +44,7 @@ export default function HowItWorks() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-8 max-w-4xl mx-auto">
           {steps.map((step, index) => (
             <div
               key={index}
@@ -64,12 +64,7 @@ export default function HowItWorks() {
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{step.description}</p>
               </div>
 
-              {/* Connector arrow (except for last item) */}
-              {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2 z-10">
-                  <div className="text-primary-500 text-2xl">→</div>
-                </div>
-              )}
+              {/* Connector arrow — hidden, grid handles flow now */}
             </div>
           ))}
         </div>

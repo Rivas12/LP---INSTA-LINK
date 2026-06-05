@@ -6,8 +6,9 @@ export default function Hero() {
     <section className="relative pt-24 sm:pt-32 pb-16 sm:pb-24 overflow-hidden bg-white">
       {/* Animated background */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-200/30 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-sky-200/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-400/25 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-amber-200/15 rounded-full blur-3xl"></div>
       </div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,10 +51,10 @@ export default function Hero() {
 
           {/* Mockup visual */}
           <div className="relative mt-10 sm:mt-16">
-            <div className="bg-white border border-gray-200 rounded-2xl sm:rounded-3xl p-4 sm:p-8 backdrop-blur-sm shadow-xl sm:shadow-2xl">
+            <div className="bg-white/70 backdrop-blur-md border border-white/50 rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-xl">
               <div className="grid gap-4 sm:gap-6 md:grid-cols-3 text-left">
                 {/* Step 1 */}
-                <div className="bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 hover:border-primary-300 hover:shadow-lg transition-all group">
+                <div className="glass rounded-2xl p-4 sm:p-6 hover:shadow-lg transition-all group">
                   <div className="w-11 h-11 sm:w-12 sm:h-12 bg-primary-500 rounded-xl flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition">
                     <FaInstagram className="text-white text-xl" />
                   </div>
@@ -62,7 +63,7 @@ export default function Hero() {
                 </div>
 
                 {/* Step 2 */}
-                <div className="bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 hover:border-electric-300 hover:shadow-lg transition-all group">
+                <div className="glass rounded-2xl p-4 sm:p-6 hover:shadow-lg transition-all group">
                   <div className="w-11 h-11 sm:w-12 sm:h-12 bg-electric-500 rounded-xl flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition">
                     <FaBolt className="text-white" />
                   </div>
@@ -71,7 +72,7 @@ export default function Hero() {
                 </div>
 
                 {/* Step 3 */}
-                <div className="bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 hover:border-primary-300 hover:shadow-lg transition-all group">
+                <div className="glass rounded-2xl p-4 sm:p-6 hover:shadow-lg transition-all group">
                   <div className="w-11 h-11 sm:w-12 sm:h-12 bg-primary-500 rounded-xl flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition">
                     <FaRocket className="text-white" />
                   </div>

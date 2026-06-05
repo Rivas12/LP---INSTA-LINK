@@ -56,17 +56,17 @@ export default function Solution() {
               </div>
 
               <div className="flex justify-center">
-                <div className="text-electric-400 text-3xl">→</div>
+                <div className="text-orange-400 text-3xl">→</div>
               </div>
 
               <div className="space-y-3">
-                <div className="bg-primary-500/10 border border-primary-500/30 rounded-xl p-3 sm:p-4">
-                  <p className="text-sm text-primary-700 font-semibold">✓ responde comentário</p>
+                <div className="bg-orange-500/10 border border-orange-300/40 rounded-xl p-3 sm:p-4">
+                  <p className="text-sm text-orange-700 font-semibold">✓ responde comentário</p>
                 </div>
-                <div className="bg-electric-500/10 border border-electric-500/30 rounded-xl p-3 sm:p-4">
-                  <p className="text-sm text-electric-700 font-semibold">✓ envia DM</p>
+                <div className="bg-orange-400/10 border border-orange-300/30 rounded-xl p-3 sm:p-4">
+                  <p className="text-sm text-orange-700 font-semibold">✓ envia DM</p>
                 </div>
-                <div className="bg-green-500/10 border border-green-500/30 rounded-xl p-3 sm:p-4">
+                <div className="bg-green-500/10 border border-green-300/40 rounded-xl p-3 sm:p-4">
                   <p className="text-sm text-green-700 font-semibold">✓ entrega link</p>
                 </div>
               </div>

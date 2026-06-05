@@ -10,83 +10,72 @@ export default function Navbar() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="fixed w-full bg-white/95 backdrop-blur-xl border-b border-gray-200 z-50 shadow-sm">
+    <nav className="fixed w-full bg-white/95 backdrop-blur-xl border-b border-gray-100 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20 sm:h-24">
+        <div className="flex justify-between items-center h-18 sm:h-20">
+          {/* Logo */}
           <div className="flex items-center">
             <Image
               src="/logo.png"
               alt="LinkInsta"
-              width={230}
-              height={72}
-              className="h-14 w-auto sm:h-16"
+              width={200}
+              height={64}
+              className="h-12 w-auto sm:h-14"
               priority
             />
           </div>
 
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#solucao" className="text-gray-700 hover:text-gray-900 transition font-medium">
-              Como Funciona
+          {/* Desktop actions */}
+          <div className="hidden md:flex items-center gap-3">
+            <a
+              href="https://app.linkinsta.com.br/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2.5 rounded-xl text-sm font-semibold text-gray-700 hover:text-gray-900 hover:bg-gray-50 border border-gray-200 transition-all duration-200"
+            >
+              Entrar
             </a>
-            <a href="#beneficios" className="text-gray-700 hover:text-gray-900 transition font-medium">
-              Benefícios
+            <a
+              href="https://app.linkinsta.com.br/register"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-orange-500 text-white px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-orange-600 hover:shadow-md hover:scale-105 transition-all duration-200"
+            >
+              Começar Grátis
             </a>
-            <a href="#demo" className="text-gray-700 hover:text-gray-900 transition font-medium">
-              Demo
-            </a>
-            <a href="#video" className="text-gray-700 hover:text-gray-900 transition font-medium">
-              Vídeo
-            </a>
-            <a href="#fotos" className="text-gray-700 hover:text-gray-900 transition font-medium">
-              Fotos
-            </a>
-            <div className="flex items-center gap-3">
-              <a href="https://app.linkinsta.com.br/login" target="_blank" rel="noopener noreferrer" className="px-5 py-3 rounded-xl font-semibold text-gray-800 border border-gray-300 hover:bg-gray-50 transition-all duration-300">
-                Entrar
-              </a>
-              <a href="https://app.linkinsta.com.br/register" target="_blank" rel="noopener noreferrer" className="bg-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 hover:shadow-lg hover:scale-105 transition-all duration-300">
-                Teste Grátis
-              </a>
-            </div>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile hamburger */}
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700 p-2 -mr-2">
-              {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+              {isOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
             </button>
           </div>
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
-          <div className="px-4 pt-2 pb-4 space-y-1">
-            <a href="#solucao" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
-              Como Funciona
+        <div className="md:hidden bg-white border-t border-gray-100">
+          <div className="px-4 pt-3 pb-4 flex flex-col gap-2">
+            <a
+              href="https://app.linkinsta.com.br/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+              className="w-full px-4 py-3 rounded-xl text-sm font-semibold text-gray-800 border border-gray-200 hover:bg-gray-50 transition text-center"
+            >
+              Entrar
             </a>
-            <a href="#beneficios" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
-              Benefícios
+            <a
+              href="https://app.linkinsta.com.br/register"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+              className="w-full bg-orange-500 text-white px-4 py-3 rounded-xl text-sm font-semibold hover:bg-orange-600 transition text-center"
+            >
+              Começar Grátis
             </a>
-            <a href="#demo" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
-              Demo
-            </a>
-            <a href="#video" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
-              Vídeo
-            </a>
-            <a href="#fotos" onClick={closeMenu} className="block py-2.5 text-sm text-gray-700 hover:text-gray-900 transition font-medium">
-              Fotos
-            </a>
-            <div className="grid grid-cols-2 gap-3 pt-2">
-              <a href="https://app.linkinsta.com.br/login" target="_blank" rel="noopener noreferrer" onClick={closeMenu} className="w-full px-4 py-3 rounded-xl text-sm font-semibold text-gray-800 border border-gray-300 hover:bg-gray-50 transition text-center">
-                Entrar
-              </a>
-              <button onClick={closeMenu} className="w-full bg-orange-500 text-white px-4 py-3 rounded-xl text-sm font-semibold hover:bg-orange-600 hover:shadow-lg transition">
-                Teste Grátis
-              </button>
-            </div>
           </div>
         </div>
       )}

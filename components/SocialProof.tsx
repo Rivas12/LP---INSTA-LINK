@@ -9,7 +9,7 @@ export default function SocialProof() {
   ];
 
   return (
-    <section className="py-14 sm:py-20 border-y border-gray-200 bg-white">
+    <section className="py-14 sm:py-20 border-y border-gray-100 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -21,9 +21,11 @@ export default function SocialProof() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 hover:border-primary-300 hover:shadow-lg transition-all group"
+              className="bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 hover:border-orange-200 hover:shadow-lg transition-all group"
             >
-              <feature.icon className="text-2xl sm:text-3xl text-primary-600 mb-3 group-hover:scale-110 transition-transform" />
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-orange-50 border border-orange-100 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <feature.icon className="text-lg sm:text-xl text-orange-500" />
+              </div>
               <p className="text-sm sm:text-base text-gray-900 font-semibold">{feature.text}</p>
             </div>
           ))}
