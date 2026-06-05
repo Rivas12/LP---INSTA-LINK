@@ -16,7 +16,7 @@ const plans = [
     annualPrice: 0,
     badge: "Grátis",
     badgeColor: "bg-orange-500/20 text-orange-400 border border-orange-500/30",
-    buttonLabel: "Começar Grátis",
+    buttonLabel: "Começar Grátis — Sem cartão",
     buttonStyle:
       "bg-orange-500/10 hover:bg-orange-500/20 text-orange-400 border border-orange-500/30 hover:border-orange-400",
     highlighted: false,
@@ -91,18 +91,18 @@ const plans = [
   {
     id: "superpro",
     icon: FaCrown,
-    iconColor: "text-purple-400",
+    iconColor: "text-purple-300",
     iconBg: "bg-purple-900/40",
     accentColor: "purple",
     name: "Super Pro",
     tagline: "O máximo do Instagram",
     monthlyPrice: 79,
     annualPrice: 71,
-    badge: null,
-    badgeColor: "",
-    buttonLabel: "Assinar Super Pro",
+    badge: "Melhor Custo-Benefício",
+    badgeColor: "bg-purple-500/20 text-purple-300 border border-purple-500/40",
+    buttonLabel: "Quero o Super Pro →",
     buttonStyle:
-      "bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-500 hover:to-purple-700 text-white shadow-lg shadow-purple-500/20",
+      "bg-gradient-to-r from-purple-500 to-fuchsia-600 hover:from-purple-400 hover:to-fuchsia-500 text-white shadow-xl shadow-purple-500/30 scale-[1.02]",
     highlighted: false,
     included: [
       "Envio de PDF, imagem, vídeo e áudio nas DMs",
