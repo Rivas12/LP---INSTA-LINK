@@ -45,9 +45,9 @@ export default function Navbar() {
               <a href="https://app.linkinsta.com.br/login" target="_blank" rel="noopener noreferrer" className="px-5 py-3 rounded-xl font-semibold text-gray-800 border border-gray-300 hover:bg-gray-50 transition-all duration-300">
                 Entrar
               </a>
-              <button className="bg-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 hover:shadow-lg hover:scale-105 transition-all duration-300">
+              <a href="https://app.linkinsta.com.br/register" target="_blank" rel="noopener noreferrer" className="bg-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 hover:shadow-lg hover:scale-105 transition-all duration-300">
                 Teste Grátis
-              </button>
+              </a>
             </div>
           </div>
 

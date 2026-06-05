@@ -25,14 +25,14 @@ export default function FinalCTA() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 justify-center items-stretch sm:items-center mb-8 w-full max-w-md sm:max-w-none mx-auto">
-              <button className="group w-full sm:w-auto bg-orange-500 text-white px-6 sm:px-12 py-4 sm:py-6 rounded-2xl text-base sm:text-xl font-bold hover:bg-orange-600 hover:shadow-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-4">
+              <a href="https://app.linkinsta.com.br/register" target="_blank" rel="noopener noreferrer" className="group w-full sm:w-auto bg-orange-500 text-white px-6 sm:px-12 py-4 sm:py-6 rounded-2xl text-base sm:text-xl font-bold hover:bg-orange-600 hover:shadow-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-4">
                 <FaInstagram className="text-3xl" />
                 Teste Grátis
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
-              </button>
-              <button className="w-full sm:w-auto px-6 sm:px-12 py-4 sm:py-6 rounded-2xl text-base sm:text-xl font-semibold text-gray-900 border-2 border-gray-300 hover:border-primary-500 hover:bg-gray-50 transition-all duration-300">
+              </a>
+              <a href="https://app.linkinsta.com.br/login" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-6 sm:px-12 py-4 sm:py-6 rounded-2xl text-base sm:text-xl font-semibold text-gray-900 border-2 border-gray-300 hover:border-primary-500 hover:bg-gray-50 transition-all duration-300 flex items-center justify-center">
                 Entrar
-              </button>
+              </a>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-2 sm:gap-6 text-xs sm:text-sm text-gray-600">
@@ -42,7 +42,7 @@ export default function FinalCTA() {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-green-600">✓</span>
-                <span>14 dias de teste grátis</span>
+                <span>7 dias de teste grátis</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-green-600">✓</span>

@@ -5,7 +5,7 @@ export default function Solution() {
     { icon: FaCheckCircle, text: "responder comentários automaticamente" },
     { icon: FaPaperPlane, text: "enviar PDF, foto, imagem e áudio no direct" },
     { icon: FaFileAlt, text: "entregar arquivos e materiais automaticamente" },
-    { icon: FaLink, text: "fluxos avançados estilo ManyChat" },
+    { icon: FaLink, text: "fluxos avançados de automação" },
     { icon: FaDatabase, text: "captar e qualificar leads em tempo real" },
   ];
 

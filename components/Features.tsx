@@ -110,14 +110,12 @@ export default function Features() {
                 <br />Cancele quando quiser. Sem pegadinhas.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-                <button className="group bg-white text-primary-600 px-10 py-5 rounded-2xl text-lg font-bold hover:scale-105 hover:shadow-2xl transition-all duration-300">
-                  <span className="flex items-center gap-2">
+                <a href="https://app.linkinsta.com.br/register" target="_blank" rel="noopener noreferrer" className="group bg-white text-primary-600 px-10 py-5 rounded-2xl text-lg font-bold hover:scale-105 hover:shadow-2xl transition-all duration-300 inline-flex items-center gap-2">
                     Começar Teste Grátis
                     <span className="group-hover:translate-x-1 transition-transform">→</span>
-                  </span>
-                </button>
+                </a>
                 <p className="text-sm text-white/90">
-                  ✓ 14 dias grátis • Sem cartão • Cancele a qualquer momento
+                  ✓ 7 dias grátis • Sem cartão • Cancele a qualquer momento
                 </p>
               </div>
               <p className="text-xs text-white/70 max-w-2xl mx-auto">

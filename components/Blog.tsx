@@ -65,9 +65,9 @@ export default function Blog() {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition">
+          <a href="https://app.linkinsta.com.br/blog" target="_blank" rel="noopener noreferrer" className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition">
             Ver todos os posts
-          </button>
+          </a>
         </div>
       </div>
     </section>

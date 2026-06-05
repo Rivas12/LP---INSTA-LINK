@@ -1,4 +1,4 @@
-import { FaTimes } from "react-icons/fa";
+import { FaTimes, FaDollarSign } from "react-icons/fa";
 
 export default function Problem() {
   const problems = [
@@ -44,6 +44,17 @@ export default function Problem() {
                 <p className="text-sm sm:text-base text-gray-700 font-medium">{problem}</p>
               </div>
             ))}
+          </div>
+
+          {/* Dollar pain callout */}
+          <div className="scroll-reveal mt-6 sm:mt-8 flex items-start gap-4 bg-amber-50 border border-amber-200 rounded-2xl p-5 sm:p-6 text-left">
+            <div className="flex-shrink-0 w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
+              <FaDollarSign className="text-amber-600 text-lg" />
+            </div>
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+              <span className="font-bold text-gray-900">Chega de pagar mais caro em dólar</span> toda vez que seu post viraliza e sua base cresce.{" "}
+              Aqui o preço é <span className="font-bold text-amber-700">fixo em Real</span> — sem surpresas na fatura.
+            </p>
           </div>
         </div>
       </div>

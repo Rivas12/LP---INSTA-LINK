@@ -239,11 +239,14 @@ export default function Pricing() {
                   </div>
 
                   {/* CTA */}
-                  <button
-                    className={`w-full py-3 rounded-xl font-semibold text-sm transition-all duration-200 mb-6 cursor-pointer ${plan.buttonStyle}`}
+                  <a
+                    href="https://app.linkinsta.com.br/register"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`w-full py-3 rounded-xl font-semibold text-sm transition-all duration-200 mb-6 text-center block ${plan.buttonStyle}`}
                   >
                     {plan.buttonLabel}
-                  </button>
+                  </a>
 
                   {/* Included */}
                   {plan.included.length > 0 && (

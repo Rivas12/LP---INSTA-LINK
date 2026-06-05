@@ -63,9 +63,9 @@ export default function Footer() {
                 <span>(11) 99999-9999</span>
               </li>
             </ul>
-            <button className="mt-6 bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition w-full">
+            <a href="https://wa.me/5500000000000?text=Oi!%20Quero%20fazer%20um%20teste%20gratis." target="_blank" rel="noopener noreferrer" className="mt-6 bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition w-full inline-block text-center">
               Fale Conosco
-            </button>
+            </a>
           </div>
         </div>
 
@@ -76,13 +76,13 @@ export default function Footer() {
               © 2026 LinkInsta Software S.A. All Rights Reserved.
             </p>
             <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-              <a href="#" className="hover:text-white transition">
+              <a href="/politica-de-privacidade" className="hover:text-white transition">
                 Política de Privacidade
               </a>
-              <a href="#" className="hover:text-white transition">
+              <a href="/termos-de-uso" className="hover:text-white transition">
                 Termos de Uso
               </a>
-              <a href="#" className="hover:text-white transition">
+              <a href="/acessibilidade" className="hover:text-white transition">
                 Acessibilidade
               </a>
             </div>

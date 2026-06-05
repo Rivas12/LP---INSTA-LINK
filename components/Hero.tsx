@@ -28,19 +28,25 @@ export default function Hero() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-2xl text-gray-600 mb-8 sm:mb-12 leading-relaxed max-w-3xl mx-auto px-1">
-            Crie fluxos completos estilo ManyChat e envie <span className="text-gray-900 font-semibold">PDF, foto, imagem, áudio e links</span> automaticamente no direct — sem equipe e sem trabalho manual.
+            Crie fluxos completos de automação e envie <span className="text-gray-900 font-semibold">PDF, foto, imagem, áudio e links</span> automaticamente no direct — sem equipe e sem trabalho manual.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center mb-10 sm:mb-16 w-full max-w-md sm:max-w-none mx-auto">
-            <button className="group w-full sm:w-auto bg-orange-500 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-2xl text-base sm:text-lg font-bold hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center mb-3 sm:mb-4 w-full max-w-md sm:max-w-none mx-auto">
+            <a href="https://app.linkinsta.com.br/register" target="_blank" rel="noopener noreferrer" className="group w-full sm:w-auto bg-orange-500 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-2xl text-base sm:text-lg font-bold hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3">
               <FaInstagram className="text-2xl" />
-              Teste Grátis
+              Comece Grátis — Ganhe 500 créditos
               <span className="group-hover:translate-x-1 transition-transform">→</span>
-            </button>
-            <button className="w-full sm:w-auto px-6 sm:px-10 py-4 sm:py-5 rounded-2xl text-base sm:text-lg font-semibold text-gray-900 border-2 border-gray-300 hover:border-primary-500 hover:bg-gray-50 transition-all duration-300">
+            </a>
+            <a href="https://app.linkinsta.com.br/login" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-6 sm:px-10 py-4 sm:py-5 rounded-2xl text-base sm:text-lg font-semibold text-gray-900 border-2 border-gray-300 hover:border-primary-500 hover:bg-gray-50 transition-all duration-300 flex items-center justify-center">
               Entrar
-            </button>
+            </a>
           </div>
+
+          {/* Trust micro-copy */}
+          <p className="text-sm text-gray-400 mb-10 sm:mb-16 flex items-center justify-center gap-2">
+            <span>🔒</span>
+            <span>Sem cartão de crédito &nbsp;·&nbsp; Cancele quando quiser &nbsp;·&nbsp; Preço fixo em Real</span>
+          </p>
 
           {/* Mockup visual */}
           <div className="relative mt-10 sm:mt-16">

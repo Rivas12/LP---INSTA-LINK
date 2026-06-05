@@ -1,9 +1,9 @@
-import { FaServer, FaRocket, FaShieldAlt, FaBolt } from "react-icons/fa";
+import { FaServer, FaRocket, FaShieldAlt, FaBolt, FaTachometerAlt } from "react-icons/fa";
 
 export default function Differential() {
   const features = [
     { icon: FaServer, text: "Entrega de PDF, foto, imagem e áudio" },
-    { icon: FaRocket, text: "Fluxos visuais estilo ManyChat" },
+    { icon: FaRocket, text: "Fluxos visuais de automação completos" },
     { icon: FaBolt, text: "Gatilhos por palavra-chave em tempo real" },
     { icon: FaShieldAlt, text: "Escala com estabilidade e velocidade" },
   ];
@@ -21,7 +21,7 @@ export default function Differential() {
 
           <p className="scroll-reveal text-base sm:text-xl text-gray-600 leading-relaxed mb-8 sm:mb-12">
             Além de responder comentários, a plataforma envia materiais completos no direct e executa
-            jornadas automáticas como no ManyChat, com foco total em conversão.
+            jornadas automáticas poderosas, com foco total em conversão.
           </p>
 
           <div className="scroll-reveal-scale bg-white border border-gray-200 rounded-2xl sm:rounded-3xl p-5 sm:p-10 mb-6 sm:mb-8 shadow-md">
@@ -37,11 +37,22 @@ export default function Differential() {
             </div>
           </div>
 
-          <div className="bg-orange-50 border border-orange-200 rounded-2xl p-5 sm:p-8">
+          <div className="bg-orange-50 border border-orange-200 rounded-2xl p-5 sm:p-8 mb-6">
             <p className="text-gray-700 text-sm sm:text-lg">
               Sua audiência comenta e o sistema já responde, envia o arquivo certo e continua o fluxo sem
               travar, mesmo com <span className="text-gray-900 font-bold">alto volume de mensagens</span>.
             </p>
+          </div>
+
+          {/* Speed seal */}
+          <div className="scroll-reveal inline-flex items-center gap-3 bg-gray-900 text-white px-5 py-3 rounded-full shadow-lg">
+            <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">
+              <FaTachometerAlt className="text-white text-sm" />
+            </div>
+            <span className="text-sm sm:text-base font-semibold">
+              Disparo Instantâneo — DM entregue em{" "}
+              <span className="text-green-400">menos de 3 segundos</span>
+            </span>
           </div>
         </div>
       </div>
