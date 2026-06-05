@@ -6,6 +6,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Benefits from "@/components/Benefits";
 import Demo from "@/components/Demo";
 import Differential from "@/components/Differential";
+import Pricing from "@/components/Pricing";
 import Trust from "@/components/Trust";
 import FinalCTA from "@/components/FinalCTA";
 import Navbar from "@/components/Navbar";
@@ -45,6 +46,9 @@ export default function Home() {
       </div>
       <div className="section-divider">
         <Differential />
+      </div>
+      <div className="section-divider">
+        <Pricing />
       </div>
       <div className="section-divider">
         <Trust />
