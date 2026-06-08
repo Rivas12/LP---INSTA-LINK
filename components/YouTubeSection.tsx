@@ -2,7 +2,7 @@ export default function YouTubeSection() {
   const videoId = "E2578W2iRGg";
 
   return (
-    <section id="video" className="py-16 sm:py-24 bg-white">
+    <section id="video" className="py-16 sm:py-24 bg-slate-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">Veja como funciona na prática</h2>

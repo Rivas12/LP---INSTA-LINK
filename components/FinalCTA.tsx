@@ -2,7 +2,7 @@ import { FaInstagram, FaRocket } from "react-icons/fa";
 
 export default function FinalCTA() {
   return (
-    <section className="py-16 sm:py-32 relative overflow-hidden bg-white">
+    <section className="py-16 sm:py-32 relative overflow-hidden bg-orange-50">
       {/* Background effects */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary-600/20 rounded-full blur-3xl"></div>

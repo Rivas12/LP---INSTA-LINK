@@ -10,7 +10,7 @@ export default function Solution() {
   ];
 
   return (
-    <section id="solucao" className="py-16 sm:py-24 bg-white">
+    <section id="solucao" className="py-16 sm:py-24 bg-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center mb-10 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-5 sm:mb-8">

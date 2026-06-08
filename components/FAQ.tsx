@@ -37,7 +37,7 @@ export default function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section className="py-20 sm:py-28 bg-[#F8FAFC]">
+    <section className="py-20 sm:py-28 bg-slate-100">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-12">

@@ -29,7 +29,7 @@ export default function Benefits() {
   ];
 
   return (
-    <section id="beneficios" className="py-16 sm:py-24 bg-white">
+    <section id="beneficios" className="py-16 sm:py-24 bg-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10 sm:mb-16 scroll-reveal">
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
@@ -44,7 +44,7 @@ export default function Benefits() {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="scroll-reveal group relative bg-white border border-gray-200 rounded-2xl sm:rounded-3xl p-6 sm:p-10 hover:border-primary-300 hover:shadow-2xl transition-all overflow-hidden"
+              className="scroll-reveal group relative bg-white border border-gray-200 rounded-2xl sm:rounded-3xl p-6 sm:p-10 hover:border-orange-300 hover:shadow-2xl transition-all overflow-hidden"
             >
               {/* Glow effect */}
               <div className="absolute inset-0 bg-transparent"></div>

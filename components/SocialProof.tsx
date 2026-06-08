@@ -9,7 +9,7 @@ export default function SocialProof() {
   ];
 
   return (
-    <section className="py-14 sm:py-20 border-y border-gray-100 bg-[#F8FAFC]">
+    <section className="py-14 sm:py-20 border-y border-gray-200 bg-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 mb-4">
